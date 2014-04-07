@@ -1,0 +1,78 @@
+
+body {
+	background-color: #008080;
+}
+
+#main {
+	color: #F5F5DC;
+	font-family: Verdana;
+}
+
+#main h3 {
+	text-align: center;
+	color: #F5F5DC;
+
+}
+
+#mypic {
+	border-radius: 10%;
+	width: 205px;
+	border: 2px solid #F5F5DC;
+
+}
+
+#menu {
+	margin: auto;
+	width: 215px;
+	padding: 5px;
+	color: #F5F5DC;
+}
+
+#menu nav {
+	margin-left: 3px;
+
+}
+
+#menu nav a {
+	font-family: Arial;
+	text-decoration: none;
+	color: #F5F5DC;
+}
+
+#contact{
+	margin: auto;
+	width: 325px;
+}
+
+#contact img {
+	width: 150px;
+}
+
+#text {
+	color: #F5F5DC;
+	width: 335px;
+	margin: auto;
+	font-family: Verdana;
+}
+#text h4{
+	text-align: center;
+}
+
+span {
+	color: #F5F5DC;
+	font-size: 12px;
+}
+#snippets {
+	width: 400px;
+	margin: auto;
+}
+#snippets h2{
+	font-family: Verdana;
+	text-align: center;
+}
+#snippets p a{
+	text-decoration: none;
+	color: #F5F5DC;
+	font-size: 10px;
+
+}
