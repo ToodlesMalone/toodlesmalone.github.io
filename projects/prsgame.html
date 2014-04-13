@@ -89,12 +89,12 @@
     $(document).ready(function() {
       var userWeapon = null;
       var computerWeapon = null;
-      computerChoose();
-    });
+      });
 
   // If the user clicks the rock button
     $("#rock").on('click', function() { 
       userWeapon="rock";
+      computerChoose();
       console.log(userWeapon);
       var result = compareWeapons(userWeapon, computerWeapon);
       $("#winner").html(result);
@@ -102,7 +102,8 @@
      });
   // If the user clicks the paper button
     $("#paper").on('click', function() { 
-      userWeapon="paper";      
+      userWeapon="paper";
+      computerChoose();      
       console.log(userWeapon);    
       var result = compareWeapons(userWeapon, computerWeapon);
       $("#winner").html(result);
@@ -110,6 +111,7 @@
   // If the user clicks the scissors button
     $("#scissors").on('click', function() { 
       userWeapon="scissors";
+      computerChoose();
       console.log(userWeapon);
       var result = compareWeapons(userWeapon, computerWeapon);
       $("#winner").html(result);
